@@ -24,6 +24,7 @@ const selectedSongReducer = (selectedSong=null, action) => {
 // export list of Reducers
 // -> then Provide will have a prop called store
 // -> at that step: this list passed down to create store
+// define state !!
 export default configureStore({
     reducer: {
         songList: songListReducer,
